@@ -20,7 +20,7 @@ const Calender = () => {
 
   const handleDataSelect = (selectInfo) => {
     let title = prompt("Enter title of event");
-    let calendarApi = selectInfo.view.calender;
+    let calendarApi = selectInfo.view.calendar;
 
     calendarApi.unselect();
     if(title) {
